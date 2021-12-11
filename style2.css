@@ -1,0 +1,105 @@
+/* This stylesheet contains the css for the about.html,contact.html and join.html */
+
+/* About.html */
+.aboutUs {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  background: blue;
+  text-transform: capitalize;
+  margin-left: 50px;
+  margin-right: 1100px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+#about {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 25px;
+  margin-left: 20px;
+  margin-right: 50px;
+  text-indent: 10px;
+}
+
+#Contact {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  background: blue;
+  text-transform: capitalize;
+  margin-left: 50px;
+  margin-right: 1100px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+/* Contact.html */
+#Submit:hover {
+  color: white;
+  font-weight: bold;
+  background: blue;
+  font-size: 25px;
+  margin-left: 40px;
+  align-items: center;
+}
+
+button {
+  align-items: center;
+  margin-left: 40px;
+}
+label {
+  margin-left: 20px;
+}
+
+#male,
+#female {
+  margin-left: 20px;
+}
+#name {
+  margin-left: 40px;
+}
+#email {
+  margin-left: 70px;
+}
+#phone {
+  margin-left: 10px;
+}
+#write {
+  margin-left: 20px;
+}
+
+/* Join.html */
+#network {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  background: blue;
+  text-transform: capitalize;
+  margin-left: 20px;
+  margin-right: 1000px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.join {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 25px;
+  margin-left: 10px;
+  margin-right: 50px;
+  text-indent: 10px;
+  text-transform: capitalize;
+}
+
+#linkedin {
+  width: 55px;
+  color: blue;
+}
+
+#Whatsapp {
+  width: 4%;
+}
+
+#Twitter {
+  width: 4%;
+}
+
+#Telegram {
+  width: 4%;
+}
