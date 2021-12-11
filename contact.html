@@ -5,11 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
+    <link rel="stylesheet" href="style2.css">
 </head>
 <body>
-    <h1>Contact Us</h1>
+    <h1 id="Contact">Contact Us</h1> 
     <br>
-    <form action="">
+    <form action="mailto:Marschalice@gmail.com">
         <label for="name">Full Name</label>
         <input type="text" name="Full Name" id="name">
         <br><br>
@@ -17,16 +18,17 @@
         <input type="text" name="Email" id="email">
         <br><br>
         <label for="phone">Phone Number</label>
-        <input type="text" name="Phone Number" id="phone">
+        <input type="text" name="Phone Number" id="phone" pattern="[0-9]">
         <br><br>
         <input type="radio" name="gender" id="male" >
         <label for="male">Male</label><br>
         <input type="radio" name="gender" id="female" >
         <label for="female">Female</label>
         <br><br>
-        <textarea name="write to us here" id="write here" cols="30" rows="10">write to us here</textarea>
+        <textarea name="write to us here" id="write" cols="30" rows="10">write to us here</textarea>
         <br><br>
-        <button id="Submit button">Submit</button>
+        <button id="Submit">Submit</button>
+    
     </form>
     
 </body>

@@ -1,0 +1,103 @@
+/* this stylesheet contains only the css for the index.html*/
+
+#SE {
+  text-align: center;
+  padding: 20px;
+  text-transform: uppercase;
+  color: blue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.bordless {
+  text-transform: capitalize;
+  color: white;
+  background-color: blue;
+  border-radius: 5px;
+  text-align: center;
+  box-sizing: 30px;
+  font-size: 40px;
+  margin-top: 0px;
+}
+
+#Navbar {
+  margin: 20px;
+  padding: 20px;
+  display: inline-block;
+  text-transform: uppercase;
+  list-style: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#blocktech {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  background: blue;
+  margin-left: 200px;
+  margin-right: 200px;
+  color: white;
+  border-radius: 5px;
+}
+
+.WblockTech {
+  font-size: 50px;
+  color: rgb(247, 247, 250);
+  background: blue;
+  margin-left: 300px;
+  margin-right: 300px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.blockchain {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 25px;
+  margin-left: 20px;
+  margin-right: 5px;
+  text-indent: 10px;
+}
+
+#web3Tech {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  background: blue;
+  margin-left: 450px;
+  margin-right: 450px;
+  color: white;
+  border-radius: 5px;
+}
+
+.Wweb3 {
+  font-size: 50px;
+  color: rgb(247, 247, 250);
+  background: blue;
+  margin-left: 450px;
+  margin-right: 450px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.web3 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 25px;
+  margin-left: 20px;
+  margin-right: 5px;
+  text-indent: 10px;
+}
+
+#bkimg {
+  position: relative;
+}
+
+#bkimg:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  background-image: url(./images/background\ blockchain\ image.png);
+  opacity: 0.2;
+  background-repeat: repeat-x;
+}
