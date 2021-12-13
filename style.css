@@ -1,4 +1,4 @@
-/* this stylesheet contains only the css for the index.html*/
+/* This stylesheet contains the css for the index.html, blockchain.html and web3.html*/
 
 #SE {
   text-align: center;
@@ -56,13 +56,12 @@
   text-indent: 10px;
 }
 
-#Click_me {
+#ClickBlockchain {
   color: white;
   font-weight: bold;
   background: blue;
   font-size: 25px;
   margin-left: 40px;
-  align-items: center;
   border-radius: 5px;
 }
 
@@ -93,6 +92,15 @@
   margin-left: 20px;
   margin-right: 5px;
   text-indent: 10px;
+}
+
+#ClickWeb3 {
+  color: white;
+  font-weight: bold;
+  background: blue;
+  font-size: 25px;
+  margin-left: 40px;
+  border-radius: 5px;
 }
 
 #bkimg {
