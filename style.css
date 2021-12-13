@@ -56,6 +56,16 @@
   text-indent: 10px;
 }
 
+#Click_me {
+  color: white;
+  font-weight: bold;
+  background: blue;
+  font-size: 25px;
+  margin-left: 40px;
+  align-items: center;
+  border-radius: 5px;
+}
+
 #web3Tech {
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
