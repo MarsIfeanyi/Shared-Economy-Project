@@ -18,6 +18,8 @@
   margin-top: 0px;
 }
 
+/* Navigation Bar  */
+
 #Navbar {
   margin: 20px;
   padding: 20px;
@@ -118,4 +120,50 @@
   background-image: url(./images/background\ blockchain\ image.png);
   opacity: 0.2;
   background-repeat: repeat-x;
+}
+
+/* Our Team */
+
+.Mteam {
+  background-color: blue;
+  margin-left: 40px;
+  color: white;
+  border-radius: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 22%;
+  text-align: center;
+}
+
+#Mars {
+  width: 400px;
+  margin-left: 30px;
+  padding-top: 20px;
+}
+
+#MarsIf {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 25px;
+  margin-left: 20px;
+  margin-right: 50px;
+  text-indent: 10px;
+}
+
+/* #SocialMediaIcons {
+  width: 70%;
+  height: 70%;
+} */
+
+#MarslinkedinIcon {
+  width: 3%;
+  height: 3%;
+  size: initial;
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
+
+#MarsTwitterIcon {
+  width: 3%;
+  height: 3%;
+  size: initial;
+  margin-bottom: 50px;
 }
