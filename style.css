@@ -118,6 +118,7 @@
   right: 0;
   z-index: -1;
   background-image: url(./images/background\ blockchain\ image.png);
+  width: 100%;
   opacity: 0.2;
   background-repeat: repeat-x;
 }
